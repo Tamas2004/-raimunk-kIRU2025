@@ -1,0 +1,38 @@
+body {
+    background-color:grey;
+    /*betüszin beállítása*/
+    color:black
+}
+
+table, td{
+    border: 2PX black solid;
+    border-collapse:collapse;
+    
+    
+}
+
+#ke { background:blue; 
+    }
+    #re { background:red; 
+    }   
+    #sa { background:yellow; 
+    }   
+    #gre { background:green; 
+    }
+
+    body {
+        background-color: grey;
+        color: black;
+    }
+    table, td {
+        border: 2px solid black;
+        border-collapse: collapse;
+        text-align: center;
+        font-size: 1.5em;
+    }
+    #ke, .blue { background: blue; color: white; }
+    #re { background: red; color: white; }
+    #sa { background: yellow; }
+    #gre, .green { background: green; color: white; }
+    .center { text-align: center; font-size: 2em; font-family: serif; }
+    .container { width: 300px; margin: 30px auto; padding: 20px; background: #ccc; }
